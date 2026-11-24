@@ -35,9 +35,9 @@ An open-source Python thermodynamic engine and standalone Windows desktop GUI fo
 
 ## Quick Start: Non-Coders (Standalone Windows `.exe`)
 
-1. Download **`VLE Flash Solver v1.0.0.exe`** from the [**Releases**](../../releases) page.
+1. Download **`VLE-Flash-Solver-v1.0.0.exe`** from the [**Releases**](../../releases) page.
 2. Place your `MODUNI.xlsx` file (and optional `PerryData.xlsx`) in the same folder, or select them using the **Browse...** buttons inside the app.
-3. Double-click **`VLE Flash Solver v1.0.0.exe`** to launch the calculator—no Python installation required.
+3. Double-click **`VLE-Flash-Solver-v1.0.0.exe`** to launch the calculator—no Python installation required.
 
 ---
 
