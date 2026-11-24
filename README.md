@@ -160,7 +160,7 @@ To compile the GUI into a single Windows executable from source:
 
 ```bash
 pip install pyinstaller pillow
-pyinstaller --onefile --windowed --clean --icon="moduni.ico" --add-data "moduni.ico;." --name "VLE_Flash_Calculator" vle_gui.py
+pyinstaller --onefile --windowed --clean --icon="moduni.ico" --add-data "moduni.ico;." --name "VLE-Flash-Solver-v1.x.x" vle_gui.py
 ```
 
 The standalone binary is written to `dist/VLE_Flash_Calculator.exe`.
