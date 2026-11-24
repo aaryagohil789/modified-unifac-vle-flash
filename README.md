@@ -163,7 +163,7 @@ pip install pyinstaller pillow
 pyinstaller --onefile --windowed --clean --icon="moduni.ico" --add-data "moduni.ico;." --name "VLE-Flash-Solver-v1.x.x" vle_gui.py
 ```
 
-The standalone binary is written to `dist/VLE_Flash_Calculator.exe`.
+The standalone binary is written to `dist/VLE-Flash-Solver-v1.x.x.exe`.
 
 ---
 
