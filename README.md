@@ -13,7 +13,7 @@ An open-source Python thermodynamic engine and standalone Windows desktop GUI fo
 * **Dual Calculation Modes:**
   * **PT Flash:** Given temperature $T$ and pressure $P$, determines phase state (`liquid`, `two-phase`, or `vapor`), vapor mole fraction $\beta$, equilibrium compositions $(x_i, y_i)$, $K$-values, and activity coefficients $\gamma_i$.
   * **Target Vapor Fraction ($\beta$) Pressure Finder:** Given $T$ and desired vapor split $\beta \in (0, 1)$, bisects over system pressure to solve for the exact operating pressure ($\text{kPa}$ and $\text{mbar}$).
-* **Flexible Pure-Component Vapor Pressures:** Supports 5-parameter DIPPR 101 correlations via `PerryData.xlsx`, 3-parameter Antoine constants ($\log_{10} P_{\text{mmHg}} = A - B/(C + T_{^\circ\text{C}})$), or a hybrid mix of both in the same mixture.
+* **Flexible Pure-Component Vapor Pressures:** Supports 5-parameter DIPPR 101 correlations via `PerryData.xlsx`, 3-parameter Antoine constants ( $\log_{10} P_{\text{mmHg}} = A - B/(C + T_{^\circ\text{C}})$ ), or a hybrid mix of both in the same mixture.
 * **Standalone Windows GUI (`vle_gui.py`):** Zero-code desktop interface available as a precompiled `.exe` under [**Releases**](../../releases).
 * **Automated Thermodynamic Verification (`verify_solver.py`):** Validates pure-component limits ($\gamma_i = 1$), numerical Gibbs–Duhem consistency, NRTL binary cross-checks, experimental azeotrope prediction (Ethanol–Water at $1\text{ atm}$), and flash mass-balance closure.
 
@@ -35,9 +35,9 @@ An open-source Python thermodynamic engine and standalone Windows desktop GUI fo
 
 ## Quick Start: Non-Coders (Standalone Windows `.exe`)
 
-1. Download **`VLE_Flash_Calculator.exe`** from the [**Releases**](../../releases) page.
+1. Download **`VLE Flash Solver v1.0.0.exe`** from the [**Releases**](../../releases) page.
 2. Place your `MODUNI.xlsx` file (and optional `PerryData.xlsx`) in the same folder, or select them using the **Browse...** buttons inside the app.
-3. Double-click `VLE_Flash_Calculator.exe` to launch the calculator—no Python installation required.
+3. Double-click **`VLE Flash Solver v1.0.0.exe`** to launch the calculator—no Python installation required.
 
 ---
 
