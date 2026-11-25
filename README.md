@@ -147,11 +147,13 @@ All unique subgroup symbols are entered as plain strings (e.g., `"CH3"`, `"ACH"`
 ### 2. `PerryData.xlsx` (Optional)
 If `PerryData.xlsx` is omitted, set `perry_excel_path=None` in Python or click **Clear (Use Antoine Only)** in the GUI and enter 3-parameter Antoine constants.
 
-When provided, `PerryData.xlsx` must contain:
-1. **`Pvap` sheet** with columns `CmpdNo`, `Name`, `CASNo`, `C1`, `C2`, `C3`, `C4`, `C5`, `Tmin`, `Tmax K` for the DIPPR 101 equation ($T$ in $\text{K}$, $P^{\text{sat}}$ in $\text{Pa}$):
-   $$\ln P^{\text{sat}}_{\text{Pa}} = C_1 + \frac{C_2}{T} + C_3 \ln T + C_4 T^{C_5}$$
-2. **`LiqDens` sheet** with columns `CmpdNo` and `MolWt` ($\text{g/mol}$).
+When provided, `PerryData.xlsx` must start from **Cell A1** in both sheets and contain:
 
+1. **`Pvap` sheet** with columns `CmpdNo`, `Name`, `CASNo`, `C1`, `C2`, `C3`, `C4`, `C5`, `Tmin`, and `Tmax K` for the DIPPR 101 equation (*T* in K, *P*<sup>sat</sup> in Pa):
+
+$$ \ln P^{\text{sat}}_{\text{Pa}} = C_1 + \frac{C_2}{T} + C_3 \ln T + C_4 T^{C_5} $$
+
+2. **`LiqDens` sheet** with columns `CmpdNo` and `MolWt` (g/mol).
 ---
 
 ## Building the Standalone Windows Executable
